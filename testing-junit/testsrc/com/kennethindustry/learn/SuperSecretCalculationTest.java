@@ -20,7 +20,7 @@ public class SuperSecretCalculationTest {
 	public void testCalculation() {
 		double initialVlaue = 1.1;
 		
-		BigDecimal expectedValue = BigDecimal.valueOf(initialVlaue * 100/Math.PI);
+		BigDecimal expectedValue = BigDecimal.valueOf(1.1 * 100/Math.PI);
 		
 		assertTrue("testCalculation", expectedValue.equals(ssc.calculation(initialVlaue)));
 	}
